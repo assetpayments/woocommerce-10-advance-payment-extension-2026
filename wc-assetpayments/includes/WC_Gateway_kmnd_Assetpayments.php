@@ -176,6 +176,14 @@ class WC_Gateway_kmnd_Assetpayments extends WC_Payment_Gateway {
                     'desc_tip'    => true,
                 ),
 
+                'description' => array(
+                    'title'       => __('Payment method desctiption', 'wc-assetpayments'),
+                    'type'        => 'text',
+                    'description' => __('Description that appears on the checkout page', 'wc-assetpayments'),
+                    'default'     => __('Pay using the payment system AssetPayments::Pay with AssetPayments', 'wc-assetpayments'),
+                    'desc_tip'    => true,
+                ),
+
                 'advance'       => array(
                     'title'       => __('Advance amount or %', 'wc-assetpayments'),
                     'type'        => 'text',
@@ -189,14 +197,6 @@ class WC_Gateway_kmnd_Assetpayments extends WC_Payment_Gateway {
                     'type'        => 'text',
                     'description' => __('Set title for advance payment', 'wc-assetpayments'),
                     'default'     => __(''),
-                    'desc_tip'    => true,
-                ),
-
-                'description' => array(
-                    'title'       => __('Card Visa/MasterCard (AssetPayments)', 'wc-assetpayments'),
-                    'type'        => 'text',
-                    'description' => __('Description that appears on the checkout page', 'wc-assetpayments'),
-                    'default'     => __('Pay using the payment system AssetPayments::Pay with AssetPayments', 'wc-assetpayments'),
                     'desc_tip'    => true,
                 ),
 
