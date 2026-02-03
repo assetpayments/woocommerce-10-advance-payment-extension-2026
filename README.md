@@ -27,6 +27,6 @@
 Разработано и протестировано с Wordpress 6+ WooCommerce 10+
 
 ### Проблемы при установке
-Если при установке модуля показывается сообщение "AssetPayments не поддерживает валюты Вашего магазина." - измените настройки валюты в WooCommerce -> Settings -> Main -> Currency settings -> Currency на EUR, RUB, ISD, UAH, KZT, или добавьте свой код валюты в файле WC_Gateway_kmnd_Assetpayments 
+Если при установке модуля показывается сообщение "AssetPayments не поддерживает валюты Вашего магазина." - измените настройки валюты в WooCommerce -> Settings -> Main -> Currency settings -> Currency на EUR, USD, UAH, или добавьте свой код валюты в файле WC_Gateway_kmnd_Assetpayments 
 
 
