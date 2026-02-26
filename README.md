@@ -1,3 +1,36 @@
+## Розширення оплати карткою для Wordpress 6+ WooCommerce 10+ (класичний та Blocks кошик)
+
+### Встановлення
+* Завантажте файл модуля `woocommerce_10_advance_blocks_1.zip` через Plugins -> Add New -> Upload Plugin
+* Активуйте розширення AssetPayments у WooCommerce -> Settings -> Payment methods
+* Вкажіть у налаштуваннях розширення:
+  * **Turn On/Off** — Активація платіжного методу
+  * **Checkout type** — вибір типу кошика (класичний або block-based)
+  * **Public key** — публічний ключ AssetPayments
+  * **Secret key** — секретний ключ AssetPayments
+  * **Processing ID** — ІД процесингу AssetPayments
+  * **Template ID** — ІД шаблону AssetPayments
+  * **Skip Checkout page** — пропуск тестової сторінки AssetPayments
+  * **Payment method title** — назва методу в кошику
+  * **Payment method description** — опис методу в кошику
+  * **Advance amount or %** — сума авансового платежу в числах або %
+  * **Advance product title** — назва товару в кошику при авансовому платежі
+  * **Lang** — мова платіжної сторінки
+  * **Current language function** — функція керування мовою
+  * **Alternative callback URL** — увімк./вимк. функції альтернативного webhook url
+  * **Сallback URL** — альтернативний webhook url
+  * **Successful payment status** — статус успішної оплати
+  * **Declined payment status** — статус помилкової оплати
+  * **Refunded payment status** — статус повернення
+
+### Примітки
+Розроблено та протестовано з Wordpress 6+ WooCommerce 10+
+
+### Проблеми при встановленні
+Якщо при встановленні модуля з'являється повідомлення "AssetPayments не підтримує валюти Вашого магазину." — змініть налаштування валюти у WooCommerce -> Settings -> Main -> Currency settings -> Currency на EUR, USD, UAH, або додайте свій код валюти у файлі `WC_Gateway_kmnd_Assetpayments`.
+
+
+
 ## Расширение оплаты картой для Wordpress 6+ WooCommerce 10+ (классическая и Blocks корзина)
 
 ### Установка
